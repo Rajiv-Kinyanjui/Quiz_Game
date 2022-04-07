@@ -29,5 +29,11 @@ if (ans.lower() == 'yes'):
     print("\n2. Who is the founder of Apple Inc.?")
     give_options("Mark Zuckerberg","Bill Gates","Steve Jobs")
     ans = input("My answer is: ")
+
+    if (ans.lower() == 'steve' or 'steve jobs' or 'stevejobs'):
+        score += 1
+        print("\t Correct")
+    else:
+        print("\tIncorrect")
     
     
