@@ -5,4 +5,7 @@ def give_options(x,y,z):
 
 print("Hello! Welcome to my quiz \nEvery answer is worth 10 points")
 ans = raw_input("\nAre you ready to play?(Yes/No)\n")
+disc = "Note: Write the actual answer NOT the option"
 
+score = 0
+total_questions = 5
