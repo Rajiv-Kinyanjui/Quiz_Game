@@ -8,7 +8,7 @@ ans = input("\nAre you ready to play?(Yes/No)\n")
 disc = "Note: Write the actual answer NOT the option"
 
 score = 0
-total_questions = 5
+total_questions = 2
 
 if (ans.lower() == 'yes'):
     print(disc)
@@ -39,10 +39,8 @@ if (ans.lower() == 'yes'):
 
     #score system
     i = score * 10
-    if i < 20:
-        print("\nYour score is "+str(i)+"/50, Better luck next time")
-    elif (i>=20 and i<40):
-        print("\nYour score is "+str(i)+"/50, Good trial.")
+    if i == 20:
+        print("\nYour score is "+str(i)+"/20, Excellent")
     else:
         print("\nYour score is "+str(i)+"/50, Well done")
 
