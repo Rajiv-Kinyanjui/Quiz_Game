@@ -4,7 +4,7 @@ def give_options(x,y,z):
     print("c):",z)
 
 print("Hello! Welcome to my quiz \nEvery answer is worth 10 points")
-ans = raw_input("\nAre you ready to play?(Yes/No)\n")
+ans = input("\nAre you ready to play?(Yes/No)\n")
 disc = "Note: Write the actual answer NOT the option"
 
 score = 0
@@ -16,7 +16,7 @@ if (ans.lower() == 'yes'):
     give_options("Python","C++","Java")
     ans = input("My answer is: ")
 
-    if (ans.lower() == 'Python'):
+    if (ans.lower() == 'python'):
         score += 1
         print("\t correct")
     else:
