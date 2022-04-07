@@ -35,5 +35,18 @@ if (ans.lower() == 'yes'):
         print("\t Correct")
     else:
         print("\tIncorrect")
+
+
+    #score system
+    i = score * 10
+    if i < 20:
+        print("\nYour score is "+str(i)+"/50, Better luck next time")
+    elif (i>=20 and i<40):
+        print("\nYour score is "+str(i)+"/50, Good trial.")
+    else:
+        print("\nYour score is "+str(i)+"/50, Well done")
+
+else:
+    print("Program Ended!")
     
     
