@@ -9,3 +9,11 @@ disc = "Note: Write the actual answer NOT the option"
 
 score = 0
 total_questions = 5
+
+if (ans.lower() == 'yes'):
+    print(disc)
+    print("\n1. What is the best programming language?")
+    give_options("Python","C++","Java")
+    ans = input("My answer is: ")
+
+    
