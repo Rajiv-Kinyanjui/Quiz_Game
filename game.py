@@ -16,4 +16,8 @@ if (ans.lower() == 'yes'):
     give_options("Python","C++","Java")
     ans = input("My answer is: ")
 
-    
+    if (ans.lower() == 'Python'):
+        score += 1
+        print("\t correct")
+    else:
+        print("\t incorrect")
